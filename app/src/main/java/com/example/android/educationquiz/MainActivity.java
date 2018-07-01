@@ -1,6 +1,8 @@
 package com.example.android.educationquiz;
 
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public void submit(View view) {
             rgQuestionOne = (RadioGroup) findViewById(R.id.question1_Option);
             rgQuestionTwo = (RadioGroup) findViewById(R.id.question2_Option);
@@ -44,23 +49,23 @@ public class MainActivity extends AppCompatActivity {
                 radioButtonFive =  (RadioButton) findViewById(selectedid_Q5);
 
                 String answerOne = radioButtonOne.getText().toString();
-                if (answerOne == "Piglets"){
+                if (Objects.equals(answerOne, "Piglets")){
                     score += 1;
                 }
                 String answerTwo = radioButtonOne.getText().toString();
-                if(answerTwo == "Lamb") {
+                if(Objects.equals(answerTwo, "Lamb")) {
                     score += 1;
                 }
                 String answerThree = radioButtonOne.getText().toString();
-                if(answerThree == "Dogs"){
+                if(Objects.equals(answerThree, "Dogs")){
                     score += 1;
                 }
                 String answerFour = radioButtonOne.getText().toString();
-                if(answerFour == "Cubs"){
+                if(Objects.equals(answerFour, "Cubs")){
                     score += 1;
                 }
                 String answerFive = radioButtonOne.getText().toString();
-                if(answerFive == "Calf"){
+                if(Objects.equals(answerFive, "Calf")){
                     score += 1;
                 }
 
