@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     score += 1;
                 }
 
-                Intent resultIntent = new Intent(this, ResultActivity.class);
+                Intent resultIntent = new Intent(MainActivity.this, ResultActivity.class);
                 resultIntent.putExtra("res", score);
                 resultIntent.putExtra("username", textInput);
                 startActivity(resultIntent);
