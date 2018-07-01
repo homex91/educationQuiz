@@ -24,10 +24,10 @@ public class ResultActivity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.textView1);
 
         if(percentScore >= 50) {
-            message = "Congratulation, your percentage score is: \n" + percentScore;
+            message = "Congratulation , " + username + " your percentage score is: \n" + percentScore;
             textView.setText(message);
         } else {
-            message = "You got below average. Your percentage score is \n" + percentScore;
+            message = username + " ,You got below average. Your percentage score is \n" + percentScore;
         }
     }
 

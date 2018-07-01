@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:hint="@string/your_name"
-            android:textSize="30sp"
-            android:textColor="#f50057"/>
+            android:textColor="#f50057"
+            android:textSize="30sp"/>
          <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,25 +32,25 @@
             android:background="#558b2f"
             android:elevation="4dp"
             android:orientation="vertical"
-            android:paddingRight="50dp"
             android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:paddingStart="50dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_1"
-                android:textSize="24sp"
                 android:textColor="#f50057"
+                android:textSize="24sp"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question_1"
+                android:textColor="#ccff90"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="#ccff90"/>
+                android:textStyle="bold"/>
 
             <RadioGroup
                 android:id="@+id/question1_Option"
@@ -61,13 +61,13 @@
                     android:id="@+id/question1_option1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="16dp"
                     android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question1_piglets"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="#ccff90"/>
+                    android:textStyle="bold"/>
 
                 <RadioButton
                     android:id="@+id/question1_option2"
@@ -76,10 +76,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question1_puppies"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="RtlSymmetry"
-                    android:textColor="#ccff90"/>
+                    android:textStyle="bold"/>
 
                 <RadioButton
                     android:id="@+id/question1_option3"
@@ -88,10 +87,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question1_poppies"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
 
                 <RadioButton
                     android:id="@+id/question1_option4"
@@ -100,10 +98,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question1_pansies"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
             </RadioGroup>
 
@@ -116,28 +113,28 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="20dp"
-            android:elevation="4dp"
             android:background="#558b2f"
+            android:elevation="4dp"
             android:orientation="vertical"
-            android:paddingRight="50dp"
             android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:paddingStart="50dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_2"
-                android:textSize="24sp"
                 android:textColor="#f50057"
+                android:textSize="24sp"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question_2"
+                android:textColor="#ccff90"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="#ccff90"/>
+                android:textStyle="bold"/>
 
             <RadioGroup
                 android:id="@+id/question2_Option"
@@ -151,10 +148,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question2_puppy"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/question2_option2"
@@ -163,9 +159,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question2_calf"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -175,10 +171,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question2_chick"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/question2_option4"
@@ -187,10 +182,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question2_lamb"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
             </RadioGroup>
         </LinearLayout>
@@ -205,25 +199,25 @@
             android:background="#558b2f"
             android:elevation="4dp"
             android:orientation="vertical"
-            android:paddingRight="50dp"
             android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:paddingStart="50dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_3"
-                android:textSize="24sp"
                 android:textColor="#f50057"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question_3"
+                android:textColor="#ccff90"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="#ccff90" />
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/question3_Option"
@@ -237,10 +231,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question3_cat"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/question3_option2"
@@ -249,10 +242,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question3_dog"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/question3_option3"
@@ -261,10 +253,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question3_goat"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
 
                 <RadioButton
                     android:id="@+id/question3_option4"
@@ -273,10 +264,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question3_rabbit"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:textColor="#ccff90"
-                    tools:ignore="RtlSymmetry" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
             </RadioGroup>
         </LinearLayout>
@@ -291,25 +281,25 @@
             android:background="#558b2f"
             android:elevation="4dp"
             android:orientation="vertical"
-            android:paddingRight="50dp"
             android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:paddingStart="50dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_4"
-                android:textSize="24sp"
                 android:textColor="#f50057"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question_4"
+                android:textColor="#ccff90"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="#ccff90"/>
+                android:textStyle="bold"/>
 
             <RadioGroup
                 android:id="@+id/question4_Option"
@@ -323,9 +313,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question4_kittens"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -335,9 +325,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question4_cubs"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -347,9 +337,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question4_leopards"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -359,9 +349,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question4_calves"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
             </RadioGroup>
@@ -377,25 +367,25 @@
             android:background="#558b2f"
             android:elevation="4dp"
             android:orientation="vertical"
-            android:paddingRight="50dp"
             android:paddingLeft="50dp"
+            android:paddingRight="50dp"
             android:paddingStart="50dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_5"
-                android:textSize="24sp"
                 android:textColor="#f50057"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question_5"
+                android:textColor="#ccff90"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:textColor="#ccff90" />
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/question5_Option"
@@ -409,9 +399,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question5_piglet"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -421,9 +411,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question5_cub"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -433,9 +423,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question5_calf"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
                 <RadioButton
@@ -445,9 +435,9 @@
                     android:paddingLeft="16dp"
                     android:paddingStart="16dp"
                     android:text="@string/question5_foal"
+                    android:textColor="#ccff90"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#ccff90"
                     tools:ignore="RtlSymmetry" />
 
             </RadioGroup>
@@ -457,13 +447,13 @@
             android:id="@+id/Btn_Send"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/submit"
-            android:padding="25dp"
             android:background="#558b2f"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:onClick="submit"
+            android:padding="25dp"
+            android:text="@string/submit"
             android:textColor="#ccff90"
-            android:onClick="submit"/>
+            android:textSize="24sp"
+            android:textStyle="bold"/>
     </LinearLayout>
 
 
