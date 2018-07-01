@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             rgQuestionThree = (RadioGroup) findViewById(R.id.question3_Option);
             rgQuestionFour = (RadioGroup) findViewById(R.id.question4_Option);
             rgQuestionFive = (RadioGroup) findViewById(R.id.question5_Option);
-            submitBtn = (Button) findViewById(R.id.Btn_Send);
             EditText txtInput = (EditText) findViewById(R.id.text_input);
             String textInput = txtInput.getText().toString();
 

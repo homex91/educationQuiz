@@ -13,6 +13,7 @@ public class ResultActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
 
+        assert bundle != null;
         String score = bundle.getString("score");
         String username = bundle.getString("username");
 
