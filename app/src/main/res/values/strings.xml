@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">educationQuiz</string>
+    <string name="number_1">Question 1</string>
+    <string name="number_2">Question 2</string>
+    <string name="number_3">Question 3</string>
+    <string name="number_4">Question 4</string>
+    <string name="number_5">Question 5</string>
+    <string name="question_1">What are baby pigs called</string>
+    <string name="question_2">What is a baby sheep called</string>
+    <string name="question_3">Puppies are young _______</string>
+    <string name="question_4">Lions are big cats but their babies are called _______</string>
+    <string name="question_5">If the mother is a cow, what do we call the baby?</string>
+    <string name="question1_piglets">Piglets</string>
+    <string name="question1_puppies">Puppies</string>
+    <string name="question1_poppies">Poppies</string>
+    <string name="question1_pansies">Pansies</string>
+    <string name="question2_puppy">Puppy</string>
+    <string name="question2_calf">Calf</string>
+    <string name="question2_chick">Chick</string>
+    <string name="question2_lamb">Lamb</string>
+    <string name="question3_cat">Cats</string>
+    <string name="question3_dog">Dogs</string>
+    <string name="question3_goat">Goats</string>
+    <string name="question3_rabbit">Rabbits</string>
+    <string name="question4_kittens">Kittens</string>
+    <string name="question4_cubs">Cubs</string>
+    <string name="question4_leopards">Leopards</string>
+    <string name="question4_calves">Calves</string>
+    <string name="question5_piglet">Piglet</string>
+    <string name="question5_cub">Cub</string>
+    <string name="question5_calf">Calf</string>
+    <string name="question5_foal">Foal</string>
+    <string name="your_name">What is your Name</string>
+    <string name="submit">Submit</string>
+</resources>

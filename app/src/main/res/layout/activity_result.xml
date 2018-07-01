@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/animalnames"
+    tools:context="com.example.android.educationquiz.ResultActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#558b2f"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="20dp"
+        android:text="Fantastic"
+        android:gravity="center"
+        android:textColor="#ccff90"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You start Again"
+        android:background="#558b2f"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ccff90"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+</android.widget.LinearLayout>

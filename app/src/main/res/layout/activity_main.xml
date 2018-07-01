@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animalnames"
+    tools:context="com.example.android.educationquiz.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:hint="@string/your_name"
+            android:textSize="30sp"
+            android:textColor="#f50057"/>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="#558b2f"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_1"
+                android:textSize="24sp"
+                android:textColor="#f50057"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#ccff90"/>
+
+            <RadioGroup
+                android:id="@+id/question1_Option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question1_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question1_piglets"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"/>
+
+                <RadioButton
+                    android:id="@+id/question1_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question1_puppies"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlSymmetry"
+                    android:textColor="#ccff90"/>
+
+                <RadioButton
+                    android:id="@+id/question1_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question1_poppies"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question1_option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question1_pansies"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:elevation="4dp"
+            android:background="#558b2f"
+            android:orientation="vertical"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_2"
+                android:textSize="24sp"
+                android:textColor="#f50057"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_2"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#ccff90"/>
+
+            <RadioGroup
+                android:id="@+id/question2_Option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question2_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question2_puppy"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question2_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question2_calf"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question2_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question2_chick"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question2_option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question2_lamb"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="#558b2f"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_3"
+                android:textSize="24sp"
+                android:textColor="#f50057"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_3"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#ccff90" />
+
+            <RadioGroup
+                android:id="@+id/question3_Option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question3_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question3_cat"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question3_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question3_dog"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question3_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question3_goat"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question3_option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question3_rabbit"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="#558b2f"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_4"
+                android:textSize="24sp"
+                android:textColor="#f50057"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_4"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#ccff90"/>
+
+            <RadioGroup
+                android:id="@+id/question4_Option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question4_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question4_kittens"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question4_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question4_cubs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question4_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question4_leopards"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question4_option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question4_calves"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="#558b2f"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_5"
+                android:textSize="24sp"
+                android:textColor="#f50057"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_5"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#ccff90" />
+
+            <RadioGroup
+                android:id="@+id/question5_Option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/question5_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question5_piglet"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question5_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question5_cub"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question5_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question5_calf"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/question5_option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:text="@string/question5_foal"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ccff90"
+                    tools:ignore="RtlSymmetry" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Btn_Send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:padding="25dp"
+            android:background="#558b2f"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#ccff90"
+            android:onClick="submit"/>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
